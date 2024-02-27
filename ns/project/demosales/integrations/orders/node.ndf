@@ -19,7 +19,7 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482</value>
+            <value name="id">b35b6220-d54e-11ee-b415-ef79d9aea482</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">orders</value>
@@ -34,7 +34,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482/70583b61-d54e-11ee-b415-ef79d9aea482</value>
+                <value name="id">b35b6220-d54e-11ee-b415-ef79d9aea482/b35b6221-d54e-11ee-b415-ef79d9aea482</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">order_id</value>
@@ -48,7 +48,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482/70583b62-d54e-11ee-b415-ef79d9aea482</value>
+                <value name="id">b35b6220-d54e-11ee-b415-ef79d9aea482/b35b6222-d54e-11ee-b415-ef79d9aea482</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">customer_name</value>
@@ -62,7 +62,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482/70583b63-d54e-11ee-b415-ef79d9aea482</value>
+                <value name="id">b35b6220-d54e-11ee-b415-ef79d9aea482/b35b6223-d54e-11ee-b415-ef79d9aea482</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">items</value>
@@ -78,7 +78,7 @@
                   <value name="node_type">unknown</value>
                   <value name="node_subtype">unknown</value>
                   <record name="node_hints" javaclass="com.wm.util.Values">
-                    <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482/70583b63-d54e-11ee-b415-ef79d9aea482/70586270-d54e-11ee-b415-ef79d9aea482</value>
+                    <value name="id">b35b6220-d54e-11ee-b415-ef79d9aea482/b35b6223-d54e-11ee-b415-ef79d9aea482/b35b8930-d54e-11ee-b415-ef79d9aea482</value>
                   </record>
                   <value name="is_public">false</value>
                   <value name="field_name">item_id</value>
@@ -92,7 +92,7 @@
                   <value name="node_type">unknown</value>
                   <value name="node_subtype">unknown</value>
                   <record name="node_hints" javaclass="com.wm.util.Values">
-                    <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482/70583b63-d54e-11ee-b415-ef79d9aea482/70586271-d54e-11ee-b415-ef79d9aea482</value>
+                    <value name="id">b35b6220-d54e-11ee-b415-ef79d9aea482/b35b6223-d54e-11ee-b415-ef79d9aea482/b35b8931-d54e-11ee-b415-ef79d9aea482</value>
                   </record>
                   <value name="is_public">false</value>
                   <value name="field_name">name</value>
@@ -106,7 +106,7 @@
                   <value name="node_type">unknown</value>
                   <value name="node_subtype">unknown</value>
                   <record name="node_hints" javaclass="com.wm.util.Values">
-                    <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482/70583b63-d54e-11ee-b415-ef79d9aea482/70586272-d54e-11ee-b415-ef79d9aea482</value>
+                    <value name="id">b35b6220-d54e-11ee-b415-ef79d9aea482/b35b6223-d54e-11ee-b415-ef79d9aea482/b35b8932-d54e-11ee-b415-ef79d9aea482</value>
                   </record>
                   <value name="is_public">false</value>
                   <value name="field_name">quantity</value>
@@ -121,7 +121,7 @@
                   <value name="node_type">unknown</value>
                   <value name="node_subtype">unknown</value>
                   <record name="node_hints" javaclass="com.wm.util.Values">
-                    <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482/70583b63-d54e-11ee-b415-ef79d9aea482/70586273-d54e-11ee-b415-ef79d9aea482</value>
+                    <value name="id">b35b6220-d54e-11ee-b415-ef79d9aea482/b35b6223-d54e-11ee-b415-ef79d9aea482/b35b8933-d54e-11ee-b415-ef79d9aea482</value>
                   </record>
                   <value name="is_public">false</value>
                   <value name="field_name">price</value>
@@ -139,7 +139,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482/70583b64-d54e-11ee-b415-ef79d9aea482</value>
+                <value name="id">b35b6220-d54e-11ee-b415-ef79d9aea482/b35b6224-d54e-11ee-b415-ef79d9aea482</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">total_price</value>
@@ -155,7 +155,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482/70583b65-d54e-11ee-b415-ef79d9aea482</value>
+                <value name="id">b35b6220-d54e-11ee-b415-ef79d9aea482/b35b6225-d54e-11ee-b415-ef79d9aea482</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">order_date</value>
@@ -170,7 +170,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482/70583b66-d54e-11ee-b415-ef79d9aea482</value>
+                <value name="id">b35b6220-d54e-11ee-b415-ef79d9aea482/b35b6226-d54e-11ee-b415-ef79d9aea482</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">status</value>
@@ -185,7 +185,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482/70583b67-d54e-11ee-b415-ef79d9aea482</value>
+                <value name="id">b35b6220-d54e-11ee-b415-ef79d9aea482/b35b6227-d54e-11ee-b415-ef79d9aea482</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">country_code</value>
@@ -242,7 +242,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">krya</value>
-    <value name="lastModifiedDate">1709024408925</value>
+    <value name="lastModifiedDate">1709024453277</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">c700f6aedadf45cab77365d4b75bc4d2</value>
       <value name="group">default</value>
