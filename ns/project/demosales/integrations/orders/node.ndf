@@ -242,7 +242,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">krya</value>
-    <value name="lastModifiedDate">1709024513847</value>
+    <value name="lastModifiedDate">1709024568599</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">c700f6aedadf45cab77365d4b75bc4d2</value>
       <value name="group">default</value>
@@ -297,7 +297,7 @@
       <record name="/0/1/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">5</number>
+        <number name="ui_step_index" type="Long">4</number>
         <number name="nodeIndex" type="Long">0</number>
         <array name="map" type="object" depth="1">
         </array>
@@ -311,6 +311,10 @@
         </array>
       </record>
       <null name="/0/1/0/0"/>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
+      </record>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
