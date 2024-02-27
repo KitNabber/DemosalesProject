@@ -45,80 +45,6 @@
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
       <array name="rec_fields" type="record" depth="1">
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">record</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="id">8ac65480-d569-11ee-ab3e-4fc1434c2299</value>
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">weather</value>
-          <value name="field_type">record</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-          <array name="rec_fields" type="record" depth="1">
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">8ac65480-d569-11ee-ab3e-4fc1434c2299/8ac65481-d569-11ee-ab3e-4fc1434c2299</value>
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">id</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Long</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">8ac65480-d569-11ee-ab3e-4fc1434c2299/8ac65482-d569-11ee-ab3e-4fc1434c2299</value>
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">main</value>
-              <value name="field_type">string</value>
-              <value name="field_dim">0</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">8ac65480-d569-11ee-ab3e-4fc1434c2299/8ac65483-d569-11ee-ab3e-4fc1434c2299</value>
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">description</value>
-              <value name="field_type">string</value>
-              <value name="field_dim">0</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">8ac65480-d569-11ee-ab3e-4fc1434c2299/8ac65484-d569-11ee-ab3e-4fc1434c2299</value>
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">icon</value>
-              <value name="field_type">string</value>
-              <value name="field_dim">0</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-          </array>
-          <value name="modifiable">true</value>
-        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -137,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">krya</value>
-    <value name="lastModifiedDate">1709036613909</value>
+    <value name="lastModifiedDate">1709037490483</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">c700f6aedadf45cab77365d4b75bc4d2</value>
       <value name="group">default</value>
