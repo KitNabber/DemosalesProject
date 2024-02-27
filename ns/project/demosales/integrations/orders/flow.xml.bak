@@ -24,7 +24,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">333c8bd0-d550-11ee-b415-ef79d9aea482</value>
+          <value name="id">ec4949b0-d550-11ee-b415-ef79d9aea482</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">orders</value>
@@ -119,7 +119,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">333c8bd0-d550-11ee-b415-ef79d9aea482</value>
+          <value name="id">ec4949b0-d550-11ee-b415-ef79d9aea482</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">orders</value>
@@ -134,7 +134,7 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">333c8bd0-d550-11ee-b415-ef79d9aea482/333c8bd1-d550-11ee-b415-ef79d9aea482</value>
+              <value name="id">ec4949b0-d550-11ee-b415-ef79d9aea482/ec4970c0-d550-11ee-b415-ef79d9aea482</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">order_id</value>
@@ -148,7 +148,7 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">333c8bd0-d550-11ee-b415-ef79d9aea482/333c8bd2-d550-11ee-b415-ef79d9aea482</value>
+              <value name="id">ec4949b0-d550-11ee-b415-ef79d9aea482/ec4970c1-d550-11ee-b415-ef79d9aea482</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">customer_name</value>
@@ -162,7 +162,7 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">333c8bd0-d550-11ee-b415-ef79d9aea482/333c8bd3-d550-11ee-b415-ef79d9aea482</value>
+              <value name="id">ec4949b0-d550-11ee-b415-ef79d9aea482/ec4970c2-d550-11ee-b415-ef79d9aea482</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">items</value>
@@ -181,7 +181,7 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">333c8bd0-d550-11ee-b415-ef79d9aea482/333c8bd4-d550-11ee-b415-ef79d9aea482</value>
+              <value name="id">ec4949b0-d550-11ee-b415-ef79d9aea482/ec4970c3-d550-11ee-b415-ef79d9aea482</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">total_price</value>
@@ -197,7 +197,7 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">333c8bd0-d550-11ee-b415-ef79d9aea482/333c8bd5-d550-11ee-b415-ef79d9aea482</value>
+              <value name="id">ec4949b0-d550-11ee-b415-ef79d9aea482/ec4970c4-d550-11ee-b415-ef79d9aea482</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">order_date</value>
@@ -212,7 +212,7 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">333c8bd0-d550-11ee-b415-ef79d9aea482/333c8bd6-d550-11ee-b415-ef79d9aea482</value>
+              <value name="id">ec4949b0-d550-11ee-b415-ef79d9aea482/ec4970c5-d550-11ee-b415-ef79d9aea482</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">status</value>
@@ -226,8 +226,20 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">333c8bd0-d550-11ee-b415-ef79d9aea482/333c8bd7-d550-11ee-b415-ef79d9aea482</value>
+              <value name="id">ec4949b0-d550-11ee-b415-ef79d9aea482/ec4970c6-d550-11ee-b415-ef79d9aea482</value>
             </record>
+            <value name="is_public">false</value>
+            <value name="field_name">country_code</value>
+            <value name="field_type">object</value>
+            <value name="field_dim">0</value>
+            <value name="wrapper_type">java.lang.Integer</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
             <value name="field_name">country_code</value>
             <value name="field_type">string</value>
@@ -289,7 +301,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">333c8bd0-d550-11ee-b415-ef79d9aea482</value>
+          <value name="id">ec4949b0-d550-11ee-b415-ef79d9aea482</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">orders</value>
@@ -423,7 +435,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">333c8bd0-d550-11ee-b415-ef79d9aea482</value>
+          <value name="id">ec4949b0-d550-11ee-b415-ef79d9aea482</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">orders</value>
