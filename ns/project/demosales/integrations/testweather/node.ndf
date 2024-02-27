@@ -546,7 +546,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">krya</value>
-    <value name="lastModifiedDate">1709022078193</value>
+    <value name="lastModifiedDate">1709034697350</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">c700f6aedadf45cab77365d4b75bc4d2</value>
       <value name="group">default</value>
@@ -573,12 +573,6 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">2</number>
-        <number name="nodeIndex" type="Long">1</number>
       </record>
     </record>
   </record>

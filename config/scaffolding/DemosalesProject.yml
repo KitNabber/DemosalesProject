@@ -51,6 +51,12 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.741
+- serviceName: project.demosales.integrations:Orderdetails
+  packages:
+  - name: DemosalesProject
+    version: "1.0"
+  - name: OpenWeatherClient
+    version: "1.0"
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
