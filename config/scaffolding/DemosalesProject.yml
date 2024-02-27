@@ -41,6 +41,12 @@ services:
     version: "1.0"
   - name: OpenWeatherClient
     version: "1.0"
+- serviceName: project.demosales.integrations:orders
+  packages:
+  - name: DemosalesProject
+    version: "1.0"
+  - name: OpenWeatherClient
+    version: "1.0"
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
