@@ -33,7 +33,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">6b84d6d0-d54d-11ee-b415-ef79d9aea482</value>
+          <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">orders</value>
@@ -124,7 +124,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">6b84d6d0-d54d-11ee-b415-ef79d9aea482</value>
+          <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">orders</value>
@@ -210,7 +210,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">6b84d6d0-d54d-11ee-b415-ef79d9aea482</value>
+          <value name="id">70583b60-d54e-11ee-b415-ef79d9aea482</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">orders</value>
