@@ -242,7 +242,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">krya</value>
-    <value name="lastModifiedDate">1709024453277</value>
+    <value name="lastModifiedDate">1709024513847</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">c700f6aedadf45cab77365d4b75bc4d2</value>
       <value name="group">default</value>
@@ -265,7 +265,7 @@
           <Boolean name="resetOnfocusout">true</Boolean>
           <Boolean name="displayIcon">true</Boolean>
         </record>
-        <number name="nodeIndex" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
       </record>
       <record name="/0/0" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
