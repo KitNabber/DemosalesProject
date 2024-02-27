@@ -49,9 +49,10 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="id">8ac65480-d569-11ee-ab3e-4fc1434c2299</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">coord</value>
+          <value name="field_name">weather</value>
           <value name="field_type">record</value>
           <value name="field_dim">0</value>
           <value name="nillable">true</value>
@@ -62,51 +63,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">lon</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Double</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">lat</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Double</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-          </array>
-          <value name="modifiable">true</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">record</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">weather</value>
-          <value name="field_type">record</value>
-          <value name="field_dim">1</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-          <value name="is_soap_array_encoding_used">false</value>
-          <array name="rec_fields" type="record" depth="1">
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">8ac65480-d569-11ee-ab3e-4fc1434c2299/8ac65481-d569-11ee-ab3e-4fc1434c2299</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">id</value>
@@ -121,6 +78,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">8ac65480-d569-11ee-ab3e-4fc1434c2299/8ac65482-d569-11ee-ab3e-4fc1434c2299</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">main</value>
@@ -134,6 +92,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">8ac65480-d569-11ee-ab3e-4fc1434c2299/8ac65483-d569-11ee-ab3e-4fc1434c2299</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">description</value>
@@ -147,6 +106,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">8ac65480-d569-11ee-ab3e-4fc1434c2299/8ac65484-d569-11ee-ab3e-4fc1434c2299</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">icon</value>
@@ -158,375 +118,6 @@
             </record>
           </array>
           <value name="modifiable">true</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">unknown</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">base</value>
-          <value name="field_type">string</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">record</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">main</value>
-          <value name="field_type">record</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-          <array name="rec_fields" type="record" depth="1">
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">temp</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Double</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">feels_like</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Double</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">temp_min</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Double</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">temp_max</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Double</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">pressure</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Long</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">humidity</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Long</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-          </array>
-          <value name="modifiable">true</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">unknown</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">visibility</value>
-          <value name="field_type">object</value>
-          <value name="field_dim">0</value>
-          <value name="wrapper_type">java.lang.Long</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">record</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">wind</value>
-          <value name="field_type">record</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-          <array name="rec_fields" type="record" depth="1">
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">speed</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Double</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">deg</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Long</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">gust</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Double</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-          </array>
-          <value name="modifiable">true</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">record</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">clouds</value>
-          <value name="field_type">record</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-          <array name="rec_fields" type="record" depth="1">
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">all</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Long</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-          </array>
-          <value name="modifiable">true</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">unknown</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">dt</value>
-          <value name="field_type">object</value>
-          <value name="field_dim">0</value>
-          <value name="wrapper_type">java.lang.Long</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">record</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">sys</value>
-          <value name="field_type">record</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-          <array name="rec_fields" type="record" depth="1">
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">type</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Long</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">id</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Long</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">country</value>
-              <value name="field_type">string</value>
-              <value name="field_dim">0</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">sunrise</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Long</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-            <record javaclass="com.wm.util.Values">
-              <value name="node_type">unknown</value>
-              <value name="node_subtype">unknown</value>
-              <record name="node_hints" javaclass="com.wm.util.Values">
-              </record>
-              <value name="is_public">false</value>
-              <value name="field_name">sunset</value>
-              <value name="field_type">object</value>
-              <value name="field_dim">0</value>
-              <value name="wrapper_type">java.lang.Long</value>
-              <value name="nillable">true</value>
-              <value name="form_qualified">false</value>
-              <value name="is_global">false</value>
-            </record>
-          </array>
-          <value name="modifiable">true</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">unknown</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">timezone</value>
-          <value name="field_type">object</value>
-          <value name="field_dim">0</value>
-          <value name="wrapper_type">java.lang.Long</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">unknown</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">id</value>
-          <value name="field_type">object</value>
-          <value name="field_dim">0</value>
-          <value name="wrapper_type">java.lang.Long</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">unknown</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">name</value>
-          <value name="field_type">string</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">unknown</value>
-          <value name="node_subtype">unknown</value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">cod</value>
-          <value name="field_type">object</value>
-          <value name="field_dim">0</value>
-          <value name="wrapper_type">java.lang.Long</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
         </record>
       </array>
       <value name="modifiable">true</value>
@@ -546,7 +137,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">krya</value>
-    <value name="lastModifiedDate">1709035328085</value>
+    <value name="lastModifiedDate">1709036042996</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">c700f6aedadf45cab77365d4b75bc4d2</value>
       <value name="group">default</value>
@@ -557,6 +148,23 @@
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <null name="/0/0"/>
+      <record name="/1" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">PACKAGES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
@@ -571,14 +179,8 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
-        <number name="ui_step_index" type="Long">1</number>
-        <number name="nodeIndex" type="Long">0</number>
-        <Boolean name="xmlMapsetSupported">true</Boolean>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">2</number>
+        <number name="nodeIndex" type="Long">1</number>
       </record>
     </record>
   </record>
