@@ -277,7 +277,7 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="((%/orders/country_code%==1))" EXIT-ON="FAILURE">
+<SEQUENCE NAME="((%/orders/country_code%!=1))" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
